@@ -89,4 +89,4 @@ def generate_recipe(target_gpc, target_ri, target_stress):
 
 if __name__ == "__main__":
     # Test execution: Requesting a custom film
-    generate_recipe(target_gpc=7, target_ri=7, target_stress=-7)
+    generate_recipe(target_gpc=2.95, target_ri=2.05, target_stress=3)

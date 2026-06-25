@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+env/
+
+# Data and model weights (these get too large for GitHub)
+data/*.csv
+models/*.pth
+models/*.pt
+
+# Python cache and Jupyter checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/ 

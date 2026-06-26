@@ -25,7 +25,6 @@ While the generative models handle the underlying physics, the repository provid
 
 ```text
 ├── data/
-│   ├── recipes_and_properties.csv          # 10,000-row synthetic training dataset
 │   ├── top_100_optimized_recipes.csv       # Curated output from CVAE optimization space
 ├── models/
 │   ├── [Weights & Scalers]                 # Ignored binary files (.pth, .pkl)

@@ -25,16 +25,14 @@ While the generative models handle the underlying physics, the repository provid
 
 ```text
 ├── data/
-│   ├── top_100_optimized_recipes.csv       # Curated output from CVAE optimization space
-├── models/
-│   ├── [Weights & Scalers]                 # Ignored binary files (.pth, .pkl)
-├── src/
+│   ├── top_optimized_recipes.csv           # Curated output from CVAE optimization space
+├── src/ 
+│   ├── benchmark.py                        # Head-to-head Digital Twin evaluation
 │   ├── dataset_generator.py                # ALD physics simulation and data generation
-│   ├── train_cvae.py                       # CVAE architecture and training loop
-│   ├── train_ddpm.py                       # Tabular Diffusion architecture and training
 │   ├── generate_recipe.py                  # Direct on-demand CVAE inference script
 │   ├── optimize_recipe.py                  # Large-scale search space exploration
-│   ├── benchmark.py                        # Head-to-head Digital Twin evaluation
+│   ├── train_cvae.py                       # CVAE architecture and training loop
+│   ├── train_ddpm.py                       # Tabular Diffusion architecture and training
 ├── .gitignore
 ├── requirements.txt
 └── README.md
